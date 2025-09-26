@@ -24,13 +24,15 @@ header {
     margin: 10px;
 }
 main {
-    margin: 0 30px;
+    margin: 0 200px;
 }
 .imagens {
     display: flex;
+    flex-wrap: wrap;
 }
 .imagens a {
     margin: 10px;
+    flex-wrap: wrap;
 }
 .imagens a img {
     width: 150px;
